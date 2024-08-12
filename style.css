@@ -1,0 +1,582 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background: #000;
+    color: #ffff;
+}
+button{
+background-color: rgba(230, 83, 60, 1);
+color:rgba(255, 255, 255, 1) ;
+padding: 10px 25px 10px 25px;
+border-radius: 20px;
+}
+
+/* nav bar  */
+
+#nav-bar{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;    
+    padding: 80px 120px 80px 120px;
+}
+#nav-item,a{
+    justify-items: center;
+    padding-left: 15px;
+     
+}
+.menu-icon{
+    display: none;
+   
+    
+}
+
+.logo{
+    color:rgba(230, 83, 60, 1) ;
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    #nav-bar {
+        display: flex;
+        padding: 20px;
+       
+    }
+
+    #nav-item,a{
+        padding: 10px 0;
+        display: none;
+        text-align: center;
+        
+    }
+    .home-button{
+        display: none;
+    }
+    .nav-item{
+        display: none;
+    }
+.menu-icon{
+    background-color: rgb(232, 236, 236);
+    width: 25px;
+    height: 20px;
+    margin-top: 4px;
+    display: inline;
+}
+    .logo {
+        margin-bottom: 20px;
+        
+        font-size: 1.8rem;
+        
+    }
+}
+/* End navbar */
+
+/* Hero start  */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 130px 40px 130px;
+}
+.hero p{
+     background-color: #000;
+     color: #d1cbcb;
+}
+.hero-text{
+    font: weight 900px;
+    font-size: xxx-large;
+    padding-bottom: 10px;
+    padding-top: 100px;
+    font-family:Impact, 'Arial Narrow Bold';
+}
+#hero-text,i{
+    color: rgba(230, 83, 60, 1);
+    font-family:Blink,i
+    
+    
+}
+.hero-button{
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+}
+.download-app{
+        color: rgba(255, 255, 255, 1);
+        padding: 10px 25px 10px 25px;
+        border-radius: 20px;
+        border-color: #fff;
+        border:10px;
+        background-color: rgb(56, 51, 51);
+}
+.workout, .tutorial {
+
+    position: absolute;
+    color: #fff;
+    background-color: rgba(143, 140, 140, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.workout{
+    top: 370px;
+    right: 100px;
+    
+}
+.workout h1{
+    top: 370px;
+    right: 100px;
+    background-color: rgba(144, 137, 137, 0.5);
+    
+}
+.tutorial {
+    right: 400px;
+    top: 700px;
+}
+.tutorial h2{
+    right: 400px;
+    top: 700px;
+     background-color: rgba(144, 137, 137, 0.5);
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hero-text {
+        font-size: 2rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .hero-button {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .download-app {
+        padding: 8px 20px;
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    
+        
+}
+/* Change Your Habits */
+
+.change-habits{
+    
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+}
+.change-habit-title{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.change-habit-title p{
+    color: #9a9393;
+    padding-top: 15px;
+    background-color: #000;
+    justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+}
+
+
+
+.habit-card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.change-habit-card p{
+    color: #9a9393;
+    background-color: #000;
+}
+    
+
+
+.change-habit-card img{
+border-radius: 80px;
+}
+
+@media (max-width: 768px) {
+.habit-card{
+    
+    flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 15px;
+}
+
+}
+        /* < !-- Run an Extra Mile Easily --> */
+#run-extra-mile{
+    display: flex;
+    justify-content: space-between;
+        margin: 40px 130px 40px 130px;
+        padding: 40px 50px 40px 50px;
+        border-radius: 15px;
+    background-color: rgb(35, 31, 31);
+        }
+#run-extra-mile img{
+    width: 35%;
+    border-radius: 10px;
+}
+.run-extra-mile-text h1{
+    padding-bottom: 8%;
+    background-color: rgb(35, 31, 31);
+}
+.run-extra-mile-text{
+    background-color: rgb(35, 31, 31);
+}
+.run-extra-mile-text p {
+    padding-bottom: 8%;
+    color: #9a9393;
+    background-color: rgb(35, 31, 31);
+}
+
+@media screen and (max-width: 768px) {
+    #run-extra-mile {
+            flex-direction: column;
+            
+            margin: 20px 40px;
+            padding: 40px 40px;
+        }
+    
+        #run-extra-mile img {
+            width: 100%;
+            /* Adjust image size on tablets */
+        }
+    
+        .run-extra-mile-text h1,
+        .run-extra-mile-text p {
+            padding-bottom: 10%;
+        }
+                .run-extra-mile-text p{
+                    width: 100%;
+                }
+}
+
+/* BMI Calculator */
+.calculator{
+   background-color: #000;
+   
+   justify-content:space-between;
+   justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+   
+
+}
+.calculator-title {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+    height: 100%;
+
+}
+.calculator-title p{
+    color: #9a9393;
+        padding-top: 15px;
+        background-color: #000;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+}
+.calculator-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator-bmi h3{
+    background-color: #000;
+    padding-bottom: 15px;
+
+}
+.calculator-bmi p{
+    background-color: #000;
+    padding-bottom: 15px;
+
+}
+.calculator-bmi input{
+padding-bottom: 10px;
+margin-bottom: 10px;
+margin-top: 10px;
+background-color: #524f4f;
+margin-right: 5px;
+margin-left: 5px;
+
+
+}
+
+.bmi-chart{
+    background-color: #000;
+    margin-top: 20px;
+    text-align: center;
+        border-collapse: collapse;
+}
+.bmi-chart h3 {
+    font-size: 1.8rem;
+    color: #ece8e8;
+    margin-bottom: 20px;
+}
+
+.bmi-chart table {
+    width: 100%;
+    border: 1px solid #646262;
+}
+.bmi-chart th,
+.bmi-chart td {
+    padding: 12px;
+    border: 1px solid #7a7777;
+    font-size: 1rem;
+}
+
+.bmi-chart th {
+    background-color: #413e3e;
+    color: #000;
+    font-weight: bold;
+}
+
+.bmi-chart tbody tr:nth-child(odd) {
+    background-color: #2b2929;
+}
+
+.bmi-chart tbody tr:nth-child(even) {
+    background-color: #444242;
+}
+
+.bmi-chart tbody tr:hover {
+    background-color: #686464;
+}
+
+
+@media screen and (max-width: 768px) {
+.calculator-item {
+        flex-direction: column;
+        
+        align-items: center;
+        
+        text-align: center;
+    }
+
+    .calculator-bmi h3 {
+        background-color: #000;
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+        /* Adjust font size for mobile */
+    }
+         .calculator-bmi{
+            height: 100%;
+         }
+    .calculator-bmi p {
+        background-color: #000;
+        padding-bottom: 10px;
+        font-size: 1rem;
+        /* Adjust font size for mobile */
+    }
+
+    .calculator-bmi input {
+        width: 100%;
+       
+        padding: 8px;
+        margin: 8px 0;
+        background-color: #524f4f;
+    }
+
+    .bmi-chart {
+        background-color: #000;
+        margin-top: 15px;
+        text-align: center;
+        padding: 10px;
+        /* Add padding for better spacing */
+        border-collapse: collapse;
+        font-size: 0.9rem;
+        /* Adjust font size for mobile */
+    }
+
+    .bmi-chart h3 {
+        font-size: 1.5rem;
+        /* Adjust font size for mobile */
+        color: #ece8e8;
+        margin-bottom: 15px;
+    }
+
+    .bmi-chart table {
+        width: 100%;
+        /* Ensure table fits within mobile screen */
+        border: 1px solid #646262;
+    }
+
+    .bmi-chart th,
+    .bmi-chart td {
+        padding: 10px;
+        border: 1px solid #7a7777;
+        font-size: 0.9rem;
+        /* Adjust font size for mobile */
+    }
+
+    .bmi-chart th {
+        background-color: #413e3e;
+        color: #fff;
+        /* Change text color for contrast */
+        font-weight: bold;
+    }
+
+    .bmi-chart tbody tr:nth-child(odd) {
+        background-color: #2b2929;
+    }
+
+    .bmi-chart tbody tr:nth-child(even) {
+        background-color: #444242;
+    }
+
+    .bmi-chart tbody tr:hover {
+        background-color: #686464;
+    }
+    
+}
+/* End BMI Calculator  */
+
+#our-team {
+    justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        /* width: 90%; */
+
+}
+.our-team-p{
+    color: #9a9393;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        background-color: #000;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+}
+
+.our-team-man{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.our-team-cart{
+    flex: 0 1 calc(33.333% - 30px);
+}
+.our-team-man img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+   
+}
+.our-team-man h3,.our-team-man p{
+    position: relative;
+    top: -50px;
+    background-color: #d4d1d100;
+}
+
+
+
+/* footer */
+
+#footer{
+    display: flex;
+    background-color: #2f2c2c;
+    padding: 60px 100px 60px 100px;
+    justify-content: space-between;
+}
+.go-fitness h1,p{
+    background-color: #2f2c2c;
+    padding-bottom: 10px;
+    width: 300px
+
+}
+.get-started h1,p{
+    background-color: #2f2c2c;
+    padding-bottom: 11px;
+}
+.all-right {
+justify-content: center;
+    text-align: center;
+    border-top: 2px solid #8b8383;
+    color: #b6afaf;
+    padding-bottom: 20px;
+    padding-top: 8px;
+   
+    background-color: #2f2c2c;
+}
+
+@media (max-width: 768px) {
+    #footer {
+       
+        flex-direction: column;
+        
+        background-color: #000000;
+       
+       
+        justify-content: center;
+        align-items: center;
+       
+    }
+        .go-fitness h1,
+        p {
+            background-color: #000000;
+            padding-bottom: 10px;
+            width: 300px
+        }
+    
+        .get-started h1,
+        p {
+            background-color: #000000;
+            padding-bottom: 11px;
+        }
+    
+        .all-right {
+            justify-content: center;
+            text-align: center;
+            border-top: 2px solid #8b8383;
+            color: #b6afaf;
+            padding-bottom: 20px;
+            padding-top: 8px;
+    
+            background-color: #000000;
+        }
+
+    
+}
